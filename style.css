@@ -1,0 +1,221 @@
+/* Reset básico para remover estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(174,189,238);
+    background: linear-gradient(90deg, rgba(174,189,238,0.742734593837535) 0%, rgba(9,106,35,0.773546918767507) 37%, rgba(0,0,0,1) 96%);
+    background-color: #f4f4f4;
+    font-family: "font-family: 'Bungee Tint', cursive;"
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #ff4c4c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #e04343;
+}
+
+/* Products Section */
+.produtos {
+    padding: 40px 0;
+}
+
+.produtos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.produtos ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produtos li {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.333% - 20px);
+    text-align: center;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.produtos li img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.produtos li h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.produtos li p {
+    font-size: 1.2em;
+    color: #ff4c4c;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+.contato {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.contato h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contato .btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contato .btn:hover {
+    background: #444;
+}
+
+/* Location Section */
+.localizacao {
+    padding: 40px 0;
+}
+
+.localizacao h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+.localizacao iframe {
+    border: 0;
+    width: 100%;
+    height: 450px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+        font-family: "font-family: 'Bungee Tint', cursive;"
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
